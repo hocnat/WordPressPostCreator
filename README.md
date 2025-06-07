@@ -69,7 +69,7 @@ Before running the script, you need to configure it with your site's details.
 Open the `create_posts.py` file in a text editor and update the constants at the top of the file:
 
 ```python
-WP_URL = "https://your-domain.com"      # The URL of your WordPress site
+WP_URL = "https://your-domain.com"       # The URL of your WordPress site
 WP_USERNAME = "your_wp_username"         # Your WordPress username
 POST_SPLIT_REGEX = r'(?=^day \d+:)'      # Regex to detect the start of a new post
 POST_TIME_STR = "22:00"                  # The fixed time for the posts
