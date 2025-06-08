@@ -79,7 +79,7 @@ POST_TIME_STR = "22:00"                  # The fixed time for the posts
 
 Execute the script from your terminal by providing the required parameters. The script will then prompt you to securely enter your application password.
 
-**Example Command:**
+**Example command:**
 
 ```shell
 python create_posts.py --category-path "Travel > Sweden > Sweden 2025" --file "sweden2025.txt" --start-date "2025-06-07"
@@ -99,7 +99,7 @@ Enter the application password you generated earlier. It will not be visible as 
 *   `--start-date` **(Required)**: The publication date for the very first post in `YYYY-MM-DD` format.
     *   Subsequent posts will have their date automatically incremented by one day.
 
-## Used Tools
+## Used tools
 
 * [Python](https://www.python.org/) - Python Software Foundation - *Python Software Foundation License*
   * The core programming language for the script.
